@@ -1,0 +1,16 @@
+node_modules
+tmp
+dist
+dist-env
+dist-server
+.git
+python
+docs
+tests
+scripts/*
+!scripts/build_media_manifest.mjs
+!scripts/build_server.mjs
+!scripts/i18n_*.mjs
+deploy
+*.md
+.venv

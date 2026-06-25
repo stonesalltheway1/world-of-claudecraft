@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# build outputs
+dist/
+dist-env/
+dist-server/
+
+# test artifacts & screenshots
+tmp/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# environment / secrets
+.env
+.env.*
+!.env.example
+
+# editor & OS noise
+.DS_Store
+Thumbs.db
+*.log
+.claude/
