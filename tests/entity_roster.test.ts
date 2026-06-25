@@ -115,7 +115,10 @@ function makeCtx() {
     completeTame: vi.fn(),
     partyOf: vi.fn(() => null),
     removeFromParty: vi.fn(),
+    onMobKilledForQuests: vi.fn(),
     onInventoryChangedForQuests: vi.fn(),
+    checkQuestReady: vi.fn(),
+    countItem: vi.fn(() => 0),
     addEntity: vi.fn(),
     dropEntity: vi.fn(),
     rebucket: vi.fn(),
@@ -142,7 +145,6 @@ function makeCtx() {
     grantNythraxisLockout: vi.fn(),
     frenzyPackmates: vi.fn(),
     armDeathThroes: vi.fn(),
-    onMobKilledForQuests: vi.fn(),
     refreshKnownAbilities: vi.fn(),
     syncPetLevel: vi.fn(),
   };
